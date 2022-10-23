@@ -3,15 +3,20 @@ body {
  font-family:Verdana, Geneva, Tahoma, sans-serif;
  color: black;
 
+
 }
 
 h1 {
-   
+  
     color: black;
     margin-top: 35px;
     margin-bottom: 35px;
+    text-align: center;
 }
 
+h2 {
+  text-align: center;
+}
 
 .meme {
     width: 500px;
@@ -78,13 +83,14 @@ h1 {
     
   }
   
- .memebutton {
+#memebutton {
   width: 150px;
-  height: 2em;
+  height: 3em;
   background-color: rgb(243, 122, 238);
   position: relative;
-top: 0px;
-left: 314.75;
+  text-align: center;
+
+
  }
 
  #imgURL {

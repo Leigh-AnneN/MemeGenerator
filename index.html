@@ -9,23 +9,25 @@
 </head>
 <body>
     <h1>MEME Maker</h1>
-    <p>Enter the information below to make a meme!</p>
+    <h2>Enter the information below to make a meme!</h2>
     <form action="#" id="memeform">
         <p>
-            <label class= "label" for="imgURL">Image URL </label>
+            <label for="imgURL">Image URL </label>
                 <input id= "imgURL" type="url" placeholder="Image Link" name="imgURL">
         </p>
     
         <p>
-            <label class= "label" for= "topText">Top Text    </label>
+            <label for= "topText">Top Text    </label>
                 <input id="topText" type="text" name="toptext">
         </p>
         <p>
-            <label class= "label" for>Bottom Text </label> 
+            <label  for>Bottom Text </label> 
                 <input id="bottomText" type="text" name="bottomtext">
         </p>
 
-    <input class= "memebutton" type="submit" value="MAKE A MEME">
+    <input id= "memebutton" type="submit" value="MAKE A MEME">
+
+    
 </form>
 <div id="location"></div>
 <script src="script.js"></script>
