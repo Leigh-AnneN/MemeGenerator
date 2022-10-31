@@ -1,20 +1,3 @@
-// let form = document.querySelector('#memeform');
-// // let img = document
-// const topText = document.querySelector('input[name="toptext"]');
-// const bottomText = document.querySelector('input[name="bottomtext');
-// const results = document.querySelector ('#results');
-
-// form.addEventListener('submit', function(e){
-//     e.preventDefault();
-//     let memeImage = document.querySelector('#imgURL').value; //grab value that the user has typed
-//     let img = document.createElement('img'); //create and image element
-//     img.src = memeImage; //
-//     document.body.appendChild(img) //add to dom
-//     // console.log(memeImage.value, topText.value, bottomText.value)
-// });
-// //a
-
-
 
 let memeImg = document.querySelector('#imgURL');
 let form = document.querySelector('#memeform');
